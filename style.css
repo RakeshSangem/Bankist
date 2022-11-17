@@ -737,7 +737,7 @@ h4 {
     align-items: center;
     text-align: center;
   }
-  #section--1 h3{
+  #section--1 h3 {
     font-size: 2rem;
     width: 80vw;
   }
@@ -751,5 +751,18 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .section {
+    text-align: center;
+  }
+  .section__header {
+    font-size: 3rem;
+  }
+  .operations__tab {
+    font-size: 1rem;
+  }
+  .operations__content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 }
