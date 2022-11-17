@@ -681,3 +681,38 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media (max-width: 639px) {
+  body {
+    /* background-color: red; */
+  }
+  .container {
+    padding: 0;
+  }
+
+  .nav img {
+    height: 30%;
+  }
+  .nav__links {
+    display: none;
+  }
+  .header__title {
+
+    justify-items: center;
+    /* margin: 40px 0; */
+    row-gap: 2rem;
+    /* padding: 50px 0; */
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+  }
+  .header__title h1 {
+    font-size: 3rem;
+  }
+  .header__title h4 {
+    font-size: 1.6rem;
+  }
+  .header__img {
+    display: none;
+  }
+}
